@@ -2,8 +2,11 @@
 <html lang="it">
 	<head>
 		<meta charset="utf-8">
+		<meta name="description" content="Se cerchi un amico per il tuo prossimo concerto, questo è il sito fatto apposta per te!">
+  		<meta name="author" content="Giorgia Savioli">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<title>ConcertPal - Iscriviti</title>
+		<title>ConcertPal - Accedi</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
@@ -27,39 +30,26 @@
 						<a class="whitelink" href="annunci.html">Annunci</a>
 					</li>
 					<li>
-						<a class="whitelink" href="aiuto.html">Aiuto</a>
+						<a class="whitelink" href="faq.html">FAQ</a>
 					</li>
 					<li class="active">
-						<a class="whitelink" href="accedi.html">Iscriviti/Accedi</a>
+						<a class="whitelink" href="iscriviti.html">Iscriviti/Accedi</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
 		<main>
-			<form action="action_page.php">
+			<form action="action_page.php" method="post">
   				<div class="container">
-    				<h2>Iscriviti</h2>
-    				<p style="font-family: 'Bree Serif', serif;">Crea il tuo account su ConcertPal!</p>
-    				<hr style="margin-bottom: 0px;">
-    			</div>
-    			<div class="imgcontainer">
-    				<img src="img/avatar.webp" alt="Avatar" class="avatar">
-    				<a class="owngallery" href="#">Carica una tua foto</a>
-    			</div>
-    			<div class="container">
-    				<label for="name"><b>Nome e Cognome</b></label>
-    				<input type="text" placeholder="Inserisci nome e cognome" required>
-    				<label for="age"><b>Data di nascita</b></label>
-    				<input type="date" id="date" min="18 years old">
+    				<h2>Accedi</h2>
     				<label for="email"><b>Email</b></label>
     				<input type="text" placeholder="nome@esempio.com" required>
-    				<label for="psw"><b>Password</b></label>
+					<label for="psw"><b>Password</b></label>
     				<input type="password" placeholder="Inserisci password" id="psw" required>
-    				<hr>
-    				<p style="font-family: 'Bree Serif', serif;">Creando un account, stai accettando i nostri <a class="link" href="#">Termini & Condizioni.</a></p>
-    				<button type="submit" class="registerbtn">Iscriviti</button>
-    				<p id="info">Hai già un account? <a class=link href="login.html">Accedi.</a></p>
-  				</div>
+					<label><input type="checkbox" checked="checked" name="remember">Ricordami</label>
+					<button class="loginbtn" type="submit">Accedi</button>
+					<p id="info">Non sei ancora iscritto? <a class=link href="iscriviti.html">Crea un account.</a></p>
+				</div>
 			</form>
 		</main>
 		<footer></footer>
