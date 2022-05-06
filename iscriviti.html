@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Se cerchi un amico per il tuo prossimo concerto, questo è il sito fatto apposta per te!">
+  		<meta name="author" content="Giorgia Savioli">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>ConcertPal - Iscriviti</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header style="background-image: url('img/concerto.jpeg');">
+			<h1>ConcertPal - ci andiamo insieme?</h1>
+			<nav>
+				<ul>
+					<li>
+						<a class="whitelink" href="index.html">HOME</a>
+					</li>
+					<li>
+						<a class="whitelink" href="annunci.html">Annunci</a>
+					</li>
+					<li>
+						<a class="whitelink" href="faq.html">FAQ</a>
+					</li>
+					<li class="active">
+						<a class="whitelink" href="iscriviti.html">Iscriviti/Accedi</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<form action="action_page.php">
+  				<div class="container">
+    				<h2>Iscriviti</h2>
+    				<p style="font-family: 'Bree Serif', serif;">Crea il tuo account su ConcertPal!</p>
+    				<hr style="margin-bottom: 0px;">
+    			</div>
+    			<div class="imgcontainer">
+    				<img src="img/avatar.webp" alt="Avatar" class="avatar">
+    				<a class="owngallery" href="#">Carica una tua foto</a>
+    			</div>
+    			<div class="container">
+    				<label for="name"><b>Nome e Cognome</b></label>
+    				<input type="text" placeholder="Inserisci nome e cognome" required>
+    				<label for="age"><b>Data di nascita</b></label>
+    				<input type="date" id="date" min="18 years old" required>
+    				<label for="email"><b>Email</b></label>
+    				<input type="text" placeholder="nome@esempio.com" required>
+    				<label for="psw"><b>Password</b></label>
+    				<input type="password" placeholder="Inserisci password" id="psw" required>
+    				<hr>
+    				<p style="font-family: 'Bree Serif', serif;">Creando un account, stai accettando i nostri <a class="link" href="#">Termini & Condizioni.</a></p>
+    				<button type="button" class="registerbtn">Iscriviti</button>
+    				<p id="info">Hai già un account? <a class=link href="accedi.html">Accedi.</a></p>
+  				</div>
+			</form>
+		</main>
+		<footer></footer>
+ </body>
+</html>
