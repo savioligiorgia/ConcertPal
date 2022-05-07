@@ -98,21 +98,21 @@ h4 {
   }
 
   h4 {
-    font-size: 16.5px !important;
+    font-size: 16.7px !important;
   }
 
   #sottotitolo {
-    font-size: 14.5px;
+    font-size: 13.5px;
   }
 
   .diverso {
-    font-size: 17px;
+    font-size: 15px;
 
   }
 }
 
 footer {
-  background-color: indigo;
+  background-color: indigo !important;
 }
 
 .ul2 {
