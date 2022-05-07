@@ -62,7 +62,9 @@ li.active a {
   padding: 20px 20px;
   text-align: center;
   color: black;
-  font-size: 18px;
+  font-size: 16px;
+  font-family: 'Bree Serif', serif; 
+
 }
 
 i {
@@ -77,8 +79,10 @@ h4 {
 
 #sottotitolo {
   text-align: center;
-  font-size: 18px;
-  padding-top: 5px;
+  font-size: 17.5px;
+  font-family: 'Bree Serif', serif; 
+  padding-top: 15px; 
+  padding-bottom: 10px;"
 }
 
 .diverso {
@@ -89,21 +93,53 @@ h4 {
 
 @media only screen and (max-width: 700px) {
   .card-text {
-    font-size: 15px;
+    font-size: 14px;
     padding: 30px 15px;
   }
 
   h4 {
-    font-size: 20px !important;
+    font-size: 16.5px !important;
   }
 
   #sottotitolo {
-    font-size: 15px;
+    font-size: 14.5px;
   }
 
   .diverso {
-    font-size: 18px;
+    font-size: 17px;
+
   }
+}
+
+footer {
+  background-color: indigo;
+}
+
+.ul2 {
+  padding-left: 0px !important;
+  margin-bottom: 0px !important;
+  text-align: center !important;
+  height: 50px;
+  padding-top: 20px;
+}
+
+.ul2 li {
+  display: inline-block;
+}
+
+.fa-facebook, .fa-instagram, .fa-github, .fa-envelope {
+  display: inline-block;
+  margin: 0px !important;
+}
+
+.social {
+  text-decoration: none !important;
+  color: white;
+  font-size: 21px;
+}
+
+.social:hover {
+  color: orchid;
 }
 
 /*css di accedi.html e login.html*/
