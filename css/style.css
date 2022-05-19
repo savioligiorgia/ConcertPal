@@ -1,4 +1,4 @@
-/*css generale*/
+/*css generale e di index.html*/
 body {
 	margin: 0px;
 	font-family: 'Fjalla One', sans-serif !important;
@@ -91,26 +91,6 @@ h4 {
   text-shadow: 1px 1px orchid !important; 
 }
 
-@media only screen and (max-width: 700px) {
-  .card-text {
-    font-size: 14px;
-    padding: 30px 15px;
-  }
-
-  h4 {
-    font-size: 16.7px !important;
-  }
-
-  #sottotitolo {
-    font-size: 13.5px;
-  }
-
-  .diverso {
-    font-size: 15px;
-
-  }
-}
-
 footer {
   background-color: indigo !important;
 }
@@ -140,6 +120,29 @@ footer {
 
 .social:hover {
   color: orchid;
+}
+
+@media only screen and (max-width: 700px) {
+  .card-text {
+    font-size: 14px;
+    padding: 30px 15px;
+  }
+
+  h4 {
+    font-size: 16.7px !important;
+  }
+
+  #sottotitolo {
+    font-size: 13.5px;
+  }
+
+  .diverso {
+    font-size: 15px;
+  }
+
+  .social {
+    font-size: 18px;
+  }
 }
 
 /*css di accedi.html e login.html*/
@@ -235,6 +238,24 @@ hr {
 	text-align: center;
 }
 
+@media only screen and (max-width: 700px) {
+  h2 {
+    font-size: 20px !important;
+  }
+
+  p{
+    font-size: 14px;
+  }
+
+  #info {
+    font-size: 14px;
+  }
+
+  b{
+    font-size: 15px;
+  }
+}
+
 /*css di faq.html*/
 summary {
 	color: indigo;
@@ -246,6 +267,16 @@ summary {
 details {
 	padding-bottom: 20px;
 	display: block;
+}
+
+@media only screen and (max-width: 700px) {
+  details {
+    font-size: 13px;
+  }
+
+  summary {
+    font-size: 15px;
+  }
 }
 
 /*css di annunci.html*/
@@ -295,7 +326,6 @@ details {
 	font-size: 14px;
   font-family: 'Fjalla One';	
   letter-spacing: 0.06em;
-
 }
 
 #annuncibtn {
@@ -310,15 +340,28 @@ details {
 #annuncibtn a {
 	color: white !important;
 	text-align: center;
-  	text-decoration: none !important;
-  	font-size: 16px;
-  	font-family: 'Fjalla One';
-  	letter-spacing: 0.06em; 
-
+	text-decoration: none !important;
+	font-size: 16px;
+	font-family: 'Fjalla One';
+	letter-spacing: 0.06em;
 }
 
 #annuncibtn:hover {
 	background-color: indigo;
+}
+
+@media only screen and (max-width: 700px) {
+  #MyTable {
+    font-size: 14px;
+  }
+
+  .rispondibtn a{
+    font-size: 12px !important;
+  }
+
+  #annuncibtn a {
+    font-size: 14px !important;
+  }
 }
 
 /**css di pubblica.html**/
@@ -335,7 +378,13 @@ input[type=text], select, textarea {
   font-family: 'Bree Serif', serif;
 }
 
-/**responsive web design**/
+@media only screen and (max-width: 700px) {
+  .alert-danger {
+    font-size: 14px;
+  }
+}
+
+/**responsive web design per titolone**/
 @media only screen and (max-width: 600px) {
 
   h1 {
