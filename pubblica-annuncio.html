@@ -16,7 +16,7 @@
   		<meta name="author" content="Giorgia Savioli">
   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<title>ConcertPal - Accedi</title>
+		<title>ConcertPal - Annunci</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
@@ -37,31 +37,29 @@
 					<li>
 						<a class="whitelink" href="index.html">HOME</a>
 					</li>
-					<li>
+					<li class="active">
 						<a class="whitelink" href="annunci.html">Annunci</a>
 					</li>
 					<li>
 						<a class="whitelink" href="faq.html">FAQ</a>
 					</li>
-					<li class="active">
+					<li>
 						<a class="whitelink" href="iscriviti.html">Iscriviti/Accedi</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
 		<main>
-			<form action="action_page.php" method="post">
-  				<div class="container">
-    				<h2>Accedi</h2>
-    				<label for="email"><b>Email</b></label>
-    				<input type="text" placeholder="nome@esempio.com" required>
-					<label for="psw"><b>Password</b></label>
-    				<input type="password" placeholder="Inserisci password" id="psw" required>
-					<label><input type="checkbox" checked="checked" name="remember">Ricordami</label>
-					<button class="loginbtn" type="button">Accedi</button>
-					<p id="info">Non sei ancora iscritto? <a class=link href="iscriviti.html">Crea un account.</a></p>
-				</div>
-			</form>
+			<div class="container">
+  				<form action="action_page.php">		
+    				<div class="alert alert-danger" role="alert" style="font-family: 'Bree Serif', serif;">
+  					Ricordati di <a href="accedi.html" style="color: dodgerblue; text-decoration: underline;">accedere</a> prima di pubblicare il tuo annuncio. </br> Se non lo fai, le altre persone non sapranno chi sei e non potranno risponderti.
+					</div>
+	    			<label for="annuncio"><b>Annuncio</b></label>
+    				<textarea style="font-family: 'Bree Serif', serif; height: 135px;" name="annuncio" placeholder="Scrivi il tuo annuncio..." required></textarea>
+    				<input class="pubblicabtn" type="button" value="Pubblica">
+  				</form>
+			</div>
 		</main>
 		<footer>
 			<section>

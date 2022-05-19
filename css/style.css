@@ -64,7 +64,6 @@ li.active a {
   color: black;
   font-size: 16px;
   font-family: 'Bree Serif', serif; 
-
 }
 
 i {
@@ -93,6 +92,7 @@ h4 {
 
 footer {
   background-color: indigo !important;
+  height: 150px;
 }
 
 .ul2 {
@@ -122,6 +122,14 @@ footer {
   color: orchid;
 }
 
+#doc {
+  color: white;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 0;
+}
+
 @media only screen and (max-width: 700px) {
   .card-text {
     font-size: 14px;
@@ -142,6 +150,10 @@ footer {
 
   .social {
     font-size: 18px;
+  }
+
+  #doc {
+    font-size: 13.5px;
   }
 }
 
@@ -392,5 +404,22 @@ input[type=text], select, textarea {
     padding: 30px !important;
     font-size: 35px !important;
   }
+}
 
+/**css di doc.html**/
+h3 {
+  font-size: 22px !important;
+  color: purple;
+}
+
+.doc-text {
+  font-size: 13.5px;
+  font-family: 'Bree Serif', serif;
+}
+
+@media only screen and (max-width: 700px) {
+
+  h3 {
+    font-size: 18px !important;
+  }
 }

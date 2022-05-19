@@ -6,7 +6,7 @@
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
-
+		  
 		  gtag('config', 'G-9ZR51NLDT0');
 		</script>
 		<meta charset="utf-8">
@@ -16,7 +16,7 @@
   		<meta name="author" content="Giorgia Savioli">
   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<title>ConcertPal - Accedi</title>
+		<title>ConcertPal</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
@@ -32,9 +32,9 @@
 	<body>
 		<header style="background-image: url('img/concerto.jpeg');">
 			<h1>ConcertPal - ci andiamo insieme?</h1>
-			<nav>
-				<ul>
-					<li>
+    		<nav>
+	      		<ul>
+					<li class="active">
 						<a class="whitelink" href="index.html">HOME</a>
 					</li>
 					<li>
@@ -43,27 +43,38 @@
 					<li>
 						<a class="whitelink" href="faq.html">FAQ</a>
 					</li>
-					<li class="active">
+					<li>
 						<a class="whitelink" href="iscriviti.html">Iscriviti/Accedi</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
 		<main>
-			<form action="action_page.php" method="post">
-  				<div class="container">
-    				<h2>Accedi</h2>
-    				<label for="email"><b>Email</b></label>
-    				<input type="text" placeholder="nome@esempio.com" required>
-					<label for="psw"><b>Password</b></label>
-    				<input type="password" placeholder="Inserisci password" id="psw" required>
-					<label><input type="checkbox" checked="checked" name="remember">Ricordami</label>
-					<button class="loginbtn" type="button">Accedi</button>
-					<p id="info">Non sei ancora iscritto? <a class=link href="iscriviti.html">Crea un account.</a></p>
-				</div>
-			</form>
+			<div class="container">
+				<h2 style="text-align: center; text-decoration: underline;">Documentazione</h2>
+				<h3>Abstract</h3>
+				<p class="doc-text">...</p>
+				<h3>Project Management Plan</h3>
+				<b>Benchmarking</b>
+				<p class="doc-text">...</p>
+				<b>Struttura e layout</b>
+				<p class="doc-text">...</p>
+				<b>Linguaggi e strumenti</b>
+				<p class="doc-text">...</p>
+				<h3>Communication Strategy</h3>
+				<b>Background</b>
+				<p class="doc-text">...</p>
+				<b>Obiettivi comunicativi</b>
+				<p class="doc-text">...</p>
+				<b>Target audience e messaggio</b>
+				<p class="doc-text">...</p>
+				<b>Promozione</b>
+				<p class="doc-text">...</p>
+				<b>Valutazione dei risultati</b>
+				<p class="doc-text">...</p>
+			</div>
 		</main>
-		<footer>
+		<footer style="height: 115px !important;">
 			<section>
 				<ul class="ul2">
 				    <li><a href="#" class="social"><i class="fa fa-facebook"></i></a></li>
@@ -71,11 +82,8 @@
 				    <li><a href="https://github.com/savioligiorgia/ConcertPal" class="social"><i class="fa fa-github"></i></a></li>
 				    <li><a href="mailto: concertpal@hotmail.it" class="social"><i class="fa fa-envelope"></i></a></li>
  				</ul>
-		    	<p class="text-center text-light" style="margin-bottom: 0px !important; padding-top: 20px; padding-bottom: 10px;">Copyright &copy;2022
+		    	<p class="text-center text-light" style="margin-bottom: 0px !important; padding-top: 20px; padding-bottom: 5px;">Copyright &copy;2022
 		    		<a href="#" style="color: orchid;">Giorgia Savioli</a>
-		   		</p>
-		   		<p style="text-align: center;">
-		   			<a href="doc.html" id="doc">Documentazione</a>
 		   		</p>
 		   	</section>
 		</footer>
