@@ -6,7 +6,6 @@
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
-		  
 		  gtag('config', 'G-9ZR51NLDT0');
 		</script>
 		<meta charset="utf-8">
@@ -30,37 +29,88 @@
 		<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<header style="background-image: url('img/concerto.jpeg');">
+		<header style="background-image: url('img/concerto.jpeg'); border-bottom: solid indigo 10px;">
 			<h1>ConcertPal - ci andiamo insieme?</h1>
-    		<nav>
-	      		<ul>
-					<li class="active">
-						<a class="whitelink" href="index.html">HOME</a>
-					</li>
-					<li>
-						<a class="whitelink" href="annunci.html">Annunci</a>
-					</li>
-					<li>
-						<a class="whitelink" href="faq.html">FAQ</a>
-					</li>
-					<li>
-						<a class="whitelink" href="iscriviti.html">Iscriviti/Accedi</a>
-					</li>
-				</ul>
-			</nav>
 		</header>
 		<main>
 			<div class="container">
 				<h2 style="text-align: center; text-decoration: underline;">Documentazione</h2>
 				<h3>Abstract</h3>
-				<p class="doc-text">...</p>
+				<p class="doc-text"></p>
 				<h3>Project Management Plan</h3>
 				<b>Benchmarking</b>
-				<p class="doc-text">...</p>
+				<section class="doc-text">
+					<p>ConcertPal si pone l’obiettivo di mettere in comunicazione persone che vogliono andare ad uno stesso concerto e non hanno trovato la compagnia giusta, perché gli amici non sono interessati a quell’artista o perché hanno avuto un imprevisto per quel giorno.</p>
+					<p>Di conseguenza, si rivolge ad un target utente molto ampio, che comprende persone di qualsiasi età (purché maggiorenni), genere, provenienza e ceto sociale. Purtroppo, al momento il sito non è ancora tradotto in altre lingue, perciò è riservato al pubblico italiano e a chi comprende e parla la lingua.</p>
+					<p>L’idea nasce da è un commento, riportato qui sotto, lasciato su Reddit otto anni fa da un ex-utente della piattaforma.</p>
+					<img src="img/idea.jpg" alt="screenshot del post di Reddit" class="idea">
+				</section>
+				<section class="doc-text">
+					<p >Analizzando lo scenario di mercato nel macro-ambito della musica e dei concerti, ho rilevato tre siti che affrontano un tema molto vicino a quello presentato da questo progetto: <i>ClubSharing, GoGoSound e Tastebuds</i>.</p> 
+					<p>Tuttavia, i primi due non possiedono un sito, sembrano non essere più attivi sui social (Facebook e Instagram) dal 2019 e le loro applicazioni per mobile non sono più disponibili negli App Store.</p>
+					<p>1) <i>Clubsharing</i> nasce come progetto di fun-ridesharing, che permette alle persone di condividere un passaggio-auto per lo stesso festival o la stessa serata di clubbing.</br>
+					Punti di forza: 
+						<ul style="font-family: 'Bree Serif', serif; font-size: 14.5px;"> 
+							<li>tema della condivisione delle risorse e della sostenibilità;</li>
+							<li>possibilità per gli utenti di pubblicare richieste direttamente nella sezione “Community” della pagina Facebook e di ricevere risposte tramite i commenti.</li>
+						</ul>
+					Punti di debolezza:
+						<ul style="font-family: 'Bree Serif', serif; font-size: 14.5px;">
+							<li>gli utenti non capiscono se devono usare il sito o i social networks;</li>
+							<li>difficoltà nell’uso dell’applicazione (molti, infatti, commentano sotto i post di ClubSharing chiedendo come usare il portale).</li>
+						</ul>
+					</p>
+					<p>2) <i>GoGoSound</i> nasce come progetto di carpooling e ha avuto molto successo fino a qualche anno fa, tanto da essere l’oggetto di articoli su testate online come LaRepubblica.it, o di servizi su La Nuova TV.</br>
+					Punti di forza:
+						<ul style="font-family: 'Bree Serif', serif; font-size: 14.5px;"> 
+							<li>i post su Facebook non riguardano più solo festival in Italia, bensì in tutta Europa; </li>
+							<li>spesso i post servono per ricordare eventi importanti della storia della musica;</li>
+							<li>interfaccia dell’applicazione più semplice e intuitiva (nessuno ha manifestato difficoltà nell’utilizzo).</li>
+						</ul>
+					Punti di debolezza:
+						<ul style="font-family: 'Bree Serif', serif; font-size: 14.5px;">
+							<li>grafica poco curata (sempre la stessa immagine per tutti gli annunci e troppi colori che non hanno nulla in comune).</li>
+						</ul>
+					</p>
+					<img src="img/gogosound.png" alt="screenshot dell'interfaccia di GoGoSound su mobile" class="gogosound">
+					<p>3) <i>Tastebuds</i> è progetto nato a Londra con l’obiettivo di permettere agli utenti di conoscere nuove persone e nuova musica in base agli interessi in comune.</br>
+					Punti di forza:
+						<ul style="font-family: 'Bree Serif', serif; font-size: 14.5px;"> 
+							<li>chat tra utenti che aumentano l’interazione;</li>
+							<li>numerose recensioni positive da parte di iscritti e figure di riferimento, come BBC, theguardian, Glamour, Time e NME.</li>
+						</ul>
+					Punti di debolezza:
+						<ul style="font-family: 'Bree Serif', serif; font-size: 14.5px;">
+							<li>applicazione scaricabile solo su dispositivi Apple;</li>
+							<li>il sito non è definibile come tale, perché mostra solo una piccola preview della barra di navigazione e per poterlo effettivamente usare bisogna iscriversi.</li>
+						</ul>
+					</p>
+				</section>
 				<b>Struttura e layout</b>
 				<p class="doc-text">...</p>
 				<b>Linguaggi e strumenti</b>
-				<p class="doc-text">...</p>
+				<section>
+				<p class="doc-text">I linguaggi web che ho utilizzato sono:
+					<ul class="doc-text">
+						<li>HTML;</li>
+						<li>CSS;</li>
+						<li>JavaScript.</li>
+					</ul>
+				</p>
+				<p class="doc-text">Gli strumenti tecnologici utilizzati a supporto della progettazione web sono stati:
+					<ul class="doc-text">
+						<li><i>Sublime Text 3</i> per la scrittura del codice;</li>
+						<li><i>Fontawesome</i> per le icone;</li>
+						<li><i>Google Fonts</i> per la scelta dei font;</li>
+						<li><i>Google Immagini</i> per lo sfondo in header e per le foto profilo degli utenti;</li>
+						<li><i>W3Schools - HTML Color Names</i> per scegliere i colori del sito;</li>
+						<li><i>W3Schools</i> e <i>Bootstrap</i> per codice Javascript e altri aspetti di grafica;</li>
+						<li><i>Github</i> per la pubblicazione del sito online;</li>
+						<li><i>Facebook</i> e <i>Instagram</i> per la promozione;</li>
+						<li><i>Google Analytics</i> per la valutazione dei risultati.</li>
+					</ul>
+				</p>
+			</section>
 				<h3>Communication Strategy</h3>
 				<b>Background</b>
 				<p class="doc-text">...</p>
@@ -74,7 +124,7 @@
 				<p class="doc-text">...</p>
 			</div>
 		</main>
-		<footer style="height: 115px !important;">
+		<footer>
 			<section>
 				<ul class="ul2">
 				    <li><a href="#" class="social"><i class="fa fa-facebook"></i></a></li>
@@ -82,8 +132,11 @@
 				    <li><a href="https://github.com/savioligiorgia/ConcertPal" class="social"><i class="fa fa-github"></i></a></li>
 				    <li><a href="mailto: concertpal@hotmail.it" class="social"><i class="fa fa-envelope"></i></a></li>
  				</ul>
-		    	<p class="text-center text-light" style="margin-bottom: 0px !important; padding-top: 20px; padding-bottom: 5px;">Copyright &copy;2022
+		    	<p class="text-center text-light" style="margin-bottom: 0px !important; padding-top: 20px; padding-bottom: 10px;">Copyright &copy;2022
 		    		<a href="#" style="color: orchid;">Giorgia Savioli</a>
+		   		</p>
+		   		<p style="text-align: center;">
+		   			<a href="index.html" id="doc">Home</a>
 		   		</p>
 		   	</section>
 		</footer>
