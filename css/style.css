@@ -462,6 +462,35 @@ h3 {
   margin-bottom: 10px;
 }
 
+.layout {
+  height: 220px;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.layout2 {
+  height: 228px;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.layout3 {
+  height: 224px;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.wireframe {
+  height: 300px;
+  display: block;
+  margin-bottom: 3px;
+}
+
+figcaption {
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
 @media only screen and (max-width: 700px) {
 
   h3 {
@@ -483,6 +512,27 @@ h3 {
     height: 300px;
     max-width: 100%;
     display: block;
-    margin: 10px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .layout {
+    height: 130px;
+  }
+
+  .layout2 {
+    height: 135px;
+  }
+
+  .layout3 {
+    height: 132px;
+  }
+
+  .wireframe {
+    height: 250px;
+  }
+
+  figcaption {
+    font-size: 10px;
   }
 }
